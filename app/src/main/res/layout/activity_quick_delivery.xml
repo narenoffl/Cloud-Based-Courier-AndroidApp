@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Schedule">
+    tools:context=".QuickDelivery">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -173,26 +173,6 @@
             android:ems="10"
             android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/textViewDeliveryDate"
-            android:layout_width="100dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="770dp"
-            android:text="DELIVERY DATE"
-            android:textSize="20dp" />
-
-        <EditText
-            android:id="@+id/editTextDate"
-            android:layout_width="225dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="150dp"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="760dp"
-            android:ems="10"
-            android:inputType="date" />
-
         <Button
             android:id="@+id/quickdelContinue"
             android:layout_width="wrap_content"
@@ -203,4 +183,5 @@
             android:text="Continue" />
 
     </RelativeLayout>
+
 </ScrollView>
