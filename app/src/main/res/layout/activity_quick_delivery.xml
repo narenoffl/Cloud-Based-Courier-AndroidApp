@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF9800"
     tools:context=".QuickDelivery">
 
     <RelativeLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FFC107"
         android:orientation="horizontal">
 
         <TextView
@@ -18,7 +20,9 @@
             android:layout_marginStart="70dp"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="50dp"
+            android:background="@color/white"
             android:text="RECEIVER DETAILS"
+            android:textColor="@color/black"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -30,6 +34,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="150dp"
             android:text="NAME"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -40,6 +45,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="220dp"
             android:text="CONTACT "
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -50,6 +56,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="290dp"
             android:text="ADDRESS"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -60,6 +67,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="360dp"
             android:text="PIN CODE"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <EditText
@@ -109,7 +117,9 @@
             android:layout_marginStart="70dp"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="460dp"
+            android:background="@color/white"
             android:text="PRODUCT DETAILS"
+            android:textColor="@color/black"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -121,6 +131,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="560dp"
             android:text="PRODUCT NAME"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -131,6 +142,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="630dp"
             android:text="HEIGHT"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <TextView
@@ -141,6 +153,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="700dp"
             android:text="WIDTH"
+            android:textColor="@color/black"
             android:textSize="20dp" />
 
         <EditText
@@ -177,10 +190,14 @@
             android:id="@+id/quickdelContinue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="150dp"
-            android:layout_marginLeft="150dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
             android:layout_marginTop="850dp"
-            android:text="Continue" />
+            android:background="#FFFFFF"
+            android:text="Continue"
+            android:textColor="#FF9800"
+            android:textSize="20dp"
+            app:backgroundTint="@color/black" />
 
     </RelativeLayout>
 
