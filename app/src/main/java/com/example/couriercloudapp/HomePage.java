@@ -11,6 +11,8 @@ public class HomePage extends AppCompatActivity {
 
     Button scheduled_delivery;
     Button quick_delivery;
+    Button gift_delivery;
+    Button log_out;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +21,7 @@ public class HomePage extends AppCompatActivity {
 
         scheduled_delivery = findViewById(R.id.buttonScheduled);
         quick_delivery = findViewById(R.id.buttonQuickDelivery);
+        log_out = findViewById(R.id.buttonLogOut);
 
         quick_delivery.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +37,15 @@ public class HomePage extends AppCompatActivity {
             public void onClick(View v) {
                 Intent scheduledDelView = new Intent(HomePage.this, Schedule.class);
                 startActivity(scheduledDelView);
+            }
+        });
+
+        log_out.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mainPage = new Intent(HomePage.this, MainActivity.class);
+                startActivity(mainPage);
+                finish();
             }
         });
 

@@ -17,10 +17,10 @@
         app:backgroundTint="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
         android:id="@+id/buttonScheduled"
@@ -52,4 +52,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/buttonQuickDelivery"
         app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="Log out"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="@android:color/holo_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
